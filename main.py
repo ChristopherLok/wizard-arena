@@ -325,7 +325,7 @@ if __name__ == "__main__":
         events = pygame.event.get()
 
         current_fps = context.clock.get_fps()
-        print(f"Current FPS: {current_fps:.1f}")
+        # print(f"Current FPS: {current_fps:.1f}")
 
         for event in events:
             if event.type == pygame.QUIT:
